@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "dummy_api"
+version = "0.1.0"
+description = ""
+authors = ["PabloLec <pablo.lecolinet@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.104.1"
+uvicorn = "^0.24.0.post1"
+sqlalchemy = "^2.0.23"
+setuptools = "^68.2.2"
+
+[tool.poetry.group.dev.dependencies]
+lorem = "^0.1.1"
+requests = "^2.31.0"
+uuid = "^1.30"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

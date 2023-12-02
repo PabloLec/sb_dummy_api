@@ -1,0 +1,10 @@
+services:
+  dummy_api:
+    image: python:3.12
+    container_name: dummy_api
+    volumes:
+      - .:/app
+    network_mode: host
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: /bin/bash -c "pip install poetry && cd /app && poetry install && poetry run python main.py"
