@@ -6,7 +6,7 @@ authors = ["PabloLec <pablo.lecolinet@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-fastapi = "^0.104.1"
+fastapi = "^0.109.1"
 uvicorn = "^0.24.0.post1"
 sqlalchemy = "^2.0.23"
 setuptools = "^68.2.2"
